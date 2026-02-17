@@ -26,3 +26,5 @@ In Content/SampleLibraryName/Trumpet/
 is what it's looking for.
 
 You are able to check out how sample libraries are made in the Content folder.
+
+<img width="640" height="640" alt="image" src="https://github.com/user-attachments/assets/6fe366a0-4eb5-42c8-9825-4418805e15ab" />
