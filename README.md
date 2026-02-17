@@ -27,4 +27,12 @@ is what it's looking for.
 
 You are able to check out how sample libraries are made in the Content folder.
 
+# Windows Example:
+
 <img width="640" height="640" alt="image" src="https://github.com/user-attachments/assets/6fe366a0-4eb5-42c8-9825-4418805e15ab" />
+
+# Linux Example:
+
+<img width="997" height="771" alt="image" src="https://github.com/user-attachments/assets/860fcc74-81d3-4316-9ce4-c6bf55fe4f5e" />
+
+<img width="1000" height="768" alt="image" src="https://github.com/user-attachments/assets/4d6e80a4-098e-45a2-a8ab-37be609b23ac" />
