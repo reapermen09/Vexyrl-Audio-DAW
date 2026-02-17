@@ -1,0 +1,62 @@
+============================================================
+           Vexyrl Audio™ DAW (VXYD) - LICENSE
+============================================================
+Copyright (C) 2026 Reapermen. All rights reserved.
+
+------------------------------------------------------------
+1. PROPRIETARY RIGHTS & RESTRICTIONS
+------------------------------------------------------------
+The Vexyrl Core Engine (VxrCore) is the proprietary property of 
+Reapermen. By installing or using this software, you agree:
+
+- NO REVERSE ENGINEERING: You shall not decompile, 
+  disassemble, reverse engineer, or otherwise attempt to 
+  derive the source code of the Vexyrl Core Engine or GUI.
+- NO MODIFICATION: You shall not modify, adapt, or create 
+  derivative works based on the binary files provided.
+- NO REDISTRIBUTION: You may not sell, lease, or distribute 
+  this software without express written permission.
+
+------------------------------------------------------------
+2. CORE SOFTWARE & LICENSING
+------------------------------------------------------------
+Vexyrl Core Engine: Proprietary / Closed Source.
+GUI Framework: .NET / C# (Eto.Forms)
+Graphics & Audio I/O: Powered by SFML (zlib/libpng license).
+
+------------------------------------------------------------
+3. SOUND LIBRARIES & ATTRIBUTION
+------------------------------------------------------------
+VXYD includes optimized sample sets derived from the following:
+
+1. GeneralUser GS (v2.0.2 & v1.471) 
+   Author: S. Christian Collins (http://www.schristiancollins.com)
+   License: Permission granted for use in software.
+
+2. Real Acoustic Drums 5 
+   Author: Tarty (via Musical Artifacts)
+   License: Creative Commons Attribution 3.0. 
+   Modifications: Original samples transcoded to OGG and 
+   optimized for VXYD's 12-15 sample architecture.
+
+3. FreePats General MIDI SoundFonts
+   Author: Various contributors (http://freepats.zenvoid.org)
+   License: Public domain / GPL-compatible for soundfont use.
+   Notes: Samples included in VXYD optimized for 12-15 sample playback.
+
+------------------------------------------------------------
+4. WARRANTY & LIABILITY
+------------------------------------------------------------
+THIS SOFTWARE IS PROVIDED "AS IS". REAPERMEN DISCLAIMS ALL 
+WARRANTIES, INCLUDING BUT NOT LIMITED TO FITNESS FOR A 
+PARTICULAR PURPOSE. IN NO EVENT SHALL THE AUTHORS BE LIABLE 
+FOR ANY DAMAGES ARISING FROM THE USE OF THIS SOFTWARE.
+
+------------------------------------------------------------
+5. TRADEMARKS
+------------------------------------------------------------
+Vexyrl Audio™ and VXYD™ are trademarks of Reapermen. 
+All other trademarks are the property of their respective owners.
+============================================================
+
+THIS ALL APPLIES! However, you are able to ask my permission for anything that involves this by contacting my via email: reapermen89@gmail.com
