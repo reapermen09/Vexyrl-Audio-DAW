@@ -5,6 +5,8 @@ A scripting based DAW w/ instrument samples
 
 If the project doesn't work the first time (which it usually doesnt)
 
+This is the fix if you get the "file too short" error.
+
 Download: https://www.sfml-dev.org/files/SFML-2.6.0-linux-gcc-64-bit.tar.gz
 
 And extract the archive
@@ -15,13 +17,13 @@ and you'll need to copy and paste (replace all)
 
 "libsfml-audio.so"
 
-"libsfml-audio-so.2.6"
+"libsfml-audio.so.2.6"
 
 "libsfml-audio.so.2.6.0"
 
 "libsfml-system.so"
 
-"libsfml-system-so.2.6"
+"libsfml-system.so.2.6"
 
 "libsfml-system.so.2.6.0"
 
