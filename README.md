@@ -1,6 +1,32 @@
 # Vexyrl-Audio-DAW
 A scripting based DAW w/ instrument samples
 
+# LINUX INSTALL
+
+If the project doesn't work the first time (which it usually doesnt)
+
+Download: https://www.sfml-dev.org/files/SFML-2.6.0-linux-gcc-64-bit.tar.gz
+
+And extract the archive
+
+go to SFML-2.6.0/lib/
+
+and you'll need to copy and paste (replace all)
+
+"libsfml-audio.so"
+
+"libsfml-audio-so.2.6"
+
+"libsfml-audio.so.2.6.0"
+
+"libsfml-system.so"
+
+"libsfml-system-so.2.6"
+
+"libsfml-system.so.2.6.0"
+
+# Description
+
 This project is a person project I've been working on since 2/6/2026. It is a scripting based DAW where you can sequence music and play your music.
 
 You can even make your own sample libraries for this if you want! I made sure to make this project as expandable as possible so that you can make the most out of it.
