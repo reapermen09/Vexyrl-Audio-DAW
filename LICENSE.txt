@@ -8,7 +8,7 @@ All rights reserved.
 
 This End User License Agreement ("Agreement") is a legal agreement
 between you ("User") and Reapermen ("Licensor") governing the use of
-the Vexyrl Audio™ DAW software, including the VxrCore Engine ("VxrCore"),
+the Vexyrl Audio™ DAW software, including the VxrCore Engine ("VxrCore", aka "libvxrcore"),
 associated binaries, content, and documentation ("Software").
 
 By installing, copying, or using this Software, you agree to be bound
