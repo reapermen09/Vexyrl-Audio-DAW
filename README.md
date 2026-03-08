@@ -46,3 +46,249 @@ In Content/SampleLibraryName/Trumpet/
 is what it's looking for.
 
 You are able to check out how sample libraries are made in the Content folder.
+
+# EXAMPLE SONG (Jungle.vxrs)
+
+```
+tempo 110
+volume 160
+
+section Intro [
+    Basic<Glockenspiel>(
+        {Bb6, .len 1, .del 8}
+        {A5, A6, .len 1, .del 24}
+
+        {G5, G6, .len 1, .del 39}
+        {Bb5, Bb6, .len 1, .del 40}
+    )-Basic<SawLead>(
+        {A2^A3, .len 16}
+        {D#2, D#3, .len 16, .del 16}
+        {D2, D3, .len 16, .del 32}
+    )-Lushreal<Piano>(
+        {D4, .len 1, .del 32}
+        {F4, .len 1, .del 33}
+        {A4, .len 1, .del 34}
+    )-Vsco<FrenchHorn>(
+        {D4, .len 8, .pit -1200, .vel 60}
+        {Bb5, A5, .del 8, .len 4, .vel 50}
+        {D4, G4, Bb4, .len 4, .del 16, .vel 78}
+        {A4, .len 2, .del 19, .vel 90}
+        {Bb4, .len 2, .del 20, .vel 90}
+        {C5, .len 2, .del 22, .vel 90}
+        {Eb5, .len 6, .del 24, .vel 90}
+
+        {C5, A4, F4, D4, .len 12, .del 32, .vel 83}
+    )-Samples<JungleNightEffect>({F#4, .rev 200, .len 48, .att 4, .vel 32, .low -50, .mid 6, .high -5, .vhigh -50})
+]
+
+section DrumsA [
+    Basic<StandardDrums>(
+        {OpenHiHat, .len 8, .vel 17}
+        {Kick, .del 1.5}
+        {Kick, .del 2.5}
+        {OpenHiHat, .del 3.0, .vel 17}
+        {Kick, LowTom, .del 4.0}
+        {Kick, .del 5.5}
+        {Kick, .del 6.5}
+
+        {Splash2, .del 7.0, .vel 25, .len 1}
+    )
+]
+
+section DrumsB [
+    Basic<StandardDrums>(
+        {OpenHiHat, .len 8, .vel 18}
+
+        {Kick, .del 1.0}
+        {Snare, .del 2.0}
+        {Kick, .del 2.75}
+
+        {HiHiHat, .del 3.25, .vel 15}
+
+        {Kick, .del 4.0}
+
+        {Snare, .del 6.0}
+        {Kick, .del 6.75}
+
+        {LowTom, .del 6.9}
+        {MidTom, .del 7.0}
+        {Splash2, .del 7.0, .vel 26}
+    )
+]
+
+section DrumsC [
+    Basic<StandardDrums>(
+        {OpenHiHat, .len 16, .vel 17}
+
+        {Kick, .del 1.5}
+        {Kick, .del 2.5}
+        {Snare, .del 4.0, .vel 32}
+
+        {Kick, LowTom, .del 4.5}
+        {Kick, .del 5.5}
+        {Kick, .del 6.5}
+        {Snare, .del 8.0, .vel 32}
+
+        {Kick, .del 9.5}
+        {Kick, .del 10.5}
+        {Snare, .del 12.0, .vel 32}
+
+        {Kick, LowTom, .del 12.5}
+        {Kick, .del 13.5}
+        {Kick, .del 14.5}
+
+        {LowTom, .del 14.75}
+        {MidTom, .del 14.75}
+        {Snare, .del 15.25, .vel 32}
+
+        {Splash2, .del 15.5, .vel 25, .len 1}
+    )
+]
+
+section Section2 [
+    Lushreal<Piano>(
+        {A#3,D4,F4,A4, .len 4, .rel 4, .rev 200, .vel 25}
+        {A#3,Db4,F4,Ab4, .len 4, .rel 4, .del 16, .rev 200, .vel 25}
+    )-Vsco<Violin>(
+        {A3, A4, .len 8}
+        {D4, D5, .len 8, .del 8}
+        {Bb4, Bb5, .len 8, .del 16}
+        {Bb4, Bb5, .len 8, .del 24}
+        {B5, B6, .len 8, .del 32}
+        {B5, B6, .len 8, .del 40}
+        {D4, D5, F#5, G5, D6, G6, .len 5, .del 48}
+        {Db4, Db5, F5, Ab5, C6, G6, .len 11, .del 53}
+    )-Basic<Piano>(
+        {F#2, F#3, .len 16, .del 32}
+        {D4, D5, .len 1, .del 32}
+        {F#4, F#5, .len 1, .del 33}
+        {A4, A5, .len 1, .del 34}
+    )-Basic<Glockenspiel>(
+        {Bb5, Bb6, .len 2, .del 16}
+        {B5, B6, .len 2, .del 32}
+    )-Basic<Flute>(
+        {D6, .len 2, .del 0}
+        {F6, .len 2, .del 2}
+        {G6, .len 2, .del 4}
+        {A6, .len 4, .del 6}
+        {C7, .len 2, .del 10}
+        {D7, .len 2, .del 12}
+        {G7, .len 4, .del 14}
+        {Ab7, .len 2, .del 18}
+        {G7, .len 2, .del 20}
+        {D7, .len 4, .del 22, .rel 4}
+
+        {D5, D6, .len 1, .del 32}
+        {F#5, F#6, .len 1, .del 33}
+        {A5, A6, .len 1, .del 34}
+        {D6, A6, .len 1, .del 35.5, .rel 4}
+
+        {D4, D5, .len 1, .del 48}
+        {F#4, F#5, .len 1, .del 49}
+        {A4, A5, .len 1, .del 50}
+        {D4, A5, .len 1, .del 51.5}
+
+        {C5, G5, .len 8, .del 53}
+    )-Basic<Sine>(
+        {A2, D3, .len 12}
+        {Bb2, Eb3, .len 12, .del 16}
+        {D3, A3, .len 12, .del 32}
+        {A3, D4, .len 3, .del 48}
+        {Ab3, Db4, .len 8, .del 53}
+    )-Basic<SopranoSax>(
+        {Bb5, .del 61}
+        {Bb5, .pit -3, .del 61.125}
+        {Bb5, .pit -8, .del 61.25}
+        {Bb5, .pit -12, .del 61.375}
+        {Bb5, .pit -14, .del 61.5}
+        {Bb5, .pit -16, .del 61.625}
+        {Bb5, .pit -19, .del 61.75}
+        {Bb5, .pit -22, .del 61.875}
+        {Bb5, .pit -25, .del 62}
+        {Bb5, .pit -28, .del 62.125}
+        {Bb5, .pit -31, .del 62.25}
+        {Bb5, .pit -35, .del 62.375}
+        {Bb5, .pit -38, .del 62.5}
+        {Bb5, .pit -43, .del 62.625}
+        {Bb5, .pit -47, .del 62.875}
+        {Bb5, .pit -50, .del 63}
+    )
+]
+
+section Trumpets2 [
+    Vsco<Trumpet>(
+        {Bb4, Bb5, .len 2, .del 8, .pan -0.6}
+        {A4, A5, .len 2, .del 10, .pan -0.25}
+        {F#4, F#5, .len 2, .del 12}
+        {D4, D5, .len 2, .del 14, .pan 0.4}
+        {F4, Eb5, F5, Eb6, .len 2, .del 16, .pan 2}
+    )
+]
+
+section Resolve [
+    Vsco<FrenchHorn>(
+        {D2^D3, B4, D5, F#5, A5, .len 4} 
+        {Db2^Db3, B4, C#5, E5, B5, .len 4, .del 4}
+        {E2^E3, A4, C#5, E5, C#6, .len 4, .del 8}
+        {E2^E3, A3, D4, E4, G4, .len 4, .del 12}
+        {E2^E3, E4, G4, B4, E5, .len 4, .del 16}
+        {C2^C3, F4, G4, A4, B4, .len 4, .del 20}
+
+        {F2^F3, Ab3, C4, Db4, F4, .len 4, .del 24} 
+    )
+    -Basic<Glockenspiel>(
+        {G5, G6, .len 2, .del 20, .vel 20}
+    )
+    -Vsco<ViolaShort>(
+        {A4, A5, .len 2, .del 14.5, .rel 1}
+        {B4, B5, .len 2, .del 15, .rel 1, .vel 42}
+        {C#5, C#6, .len 2, .del 16.5, .rel 1, .vel 46}
+        {D5, D6, .len 2, .del 17, .rel 1, .vel 50}
+        {E5, E6, .len 2, .del 18.5, .vel 52}
+        {Gb5, Gb6, .len 2, .del 19, .rel 1, .vel 55}
+        {F4, F5, .len 2, .del 24, .rel 1, .vel 57}
+    )
+    -Vsco<Viola>(
+        {G5, G6, .len 1, .del 20, .vel 56, .rel 3, .att 0.5}
+        {Db6, .len 4, .del 24, .vel 65, .rel 3}
+	{Eb6, F6, .len 4, .del 24, .vel 70, .rel 3}
+    )
+    -Basic<StandardDrums>(
+        {Crash, .del 20, .rev 200, .rel 1, .revtype:shimmer, .vel 32}
+        {Crash2, .del 24, .rev 200, .rel 1, .revtype:shimmer, .vel 32}
+    )
+]
+
+override Vsco<FrenchHorn>{.vel 120, .rev 150, .revtype:shimmer, .rel 1, .low 10, .mid 3, .high -50, .vhigh -50 }
+override Lushreal<Piano>{.vel 50, .rev 100, .rel 2, .low 5, .mid 2, .high -50, .vhigh -50 }
+override Basic<Glockenspiel>{.rev 200, .vel 35, .rel 2, .revtype:underwater, .vlow -50, .low 10, .mid 4, .high -20, .vhigh -50}
+override Basic<SawLead>{.rev 35, .vel 20, .vlow 10, .low 10, .mid -5, .high -20}
+override Basic<StandardDrums>{.vel 39, .rev 120, .revtype:underwater}
+
+play Intro - DrumsA*6
+
+override Basic<SopranoSax>{.rel 2, .rev 100, .att 0.3, .vel 22}
+override Basic<StandardDrums>{.vel 29, .rev 120, .revtype:underwater}
+override Basic<Piano>{.rev 100, .vel 50, .revtype:ambient, .rel 3}
+override Lushreal<Piano>{.rel 4, .rev 200, .vel 25}
+override Basic<Flute>{.vel 38, .rel 2, .rev 130, .vlow -50, .low -50, .mid 8, .high -50, .vhigh -50}
+override Basic<Sine>{.rev 0, .vel 25, .rel 4}
+override Vsco<Violin>{.rev 50, .rel 2, .vel 44, .low 5, .mid 4, .high -2, .vhigh -50}
+
+play Section2 - DrumsB*8
+
+override Vsco<FrenchHorn>{.rel 4, .rev 50, .vel 40, .revtype:heavenly, .vlow -50, .low 10, .mid 2, .high -4, .vhigh -50}
+override Vsco<ViolaShort>{.rev 80, .vel 40, .revtype:ambient}
+override Vsco<Viola>{.revtype:ambient, .rev 80}
+override Basic<Glockenspiel>{.del 14, .len 1, .rev 200, .vel 20, .rel 8, .revtype:heavenly}
+play Resolve
+
+override Vsco<FrenchHorn>{.vel 120, .rev 150, .revtype:shimmer, .rel 1, .pit -25}
+override Lushreal<Piano>{.rel 4, .rev 200, .vel 25, .pit -20}
+override Basic<Glockenspiel>{.rev 80, .vel 55, .pit -15, .revtype:underwater}
+override Basic<SawLead>{.rev 35, .vel 18, .vlow 10, .low 10, .mid -5, .high -20, .pit -10}
+override Basic<StandardDrums>{.vel 32, .rev 120, .pit -37, .revtype:heavenly}
+override Vsco<Trumpet>{.vel 35, .rev 150, .pit -17, .rel 1.5, .revtype:concerthall}
+
+play Intro - DrumsC*3 - Trumpets2
+```
