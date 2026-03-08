@@ -5,6 +5,15 @@ THIS PRODUCT WILL NOW ONLY BE FOR LINUX SYSTEMS (STARTING MARCH 8, 2026)
 
 <img width="1339" height="825" alt="image" src="https://github.com/user-attachments/assets/ef3f09ba-8804-4d6d-8eb4-268b727f488e" />
 
+# README (IMPORTANT NOTE)
+
+run.sh will start the program on linux.
+
+If you want to set this up like a regular desktop app, just run in terminal "./setup.sh" and you should be able to install the app!
+
+Documentation is all in ReleaseScript.vxrs or if you go to Help -> View Documentation (other documentation file) which contains about everything you can do in this DAW
+
+Or you can just look through all the projects I've tested with this DAW.
 
 # Description
 
