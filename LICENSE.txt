@@ -1,62 +1,242 @@
 ============================================================
-           Vexyrl Audio™ DAW (VXYD) - LICENSE
+                Vexyrl Audio™ DAW (VXYD)
+                END USER LICENSE AGREEMENT
 ============================================================
-Copyright (C) 2026 Reapermen. All rights reserved.
+
+Copyright (C) 2026–Present Reapermen.
+All rights reserved.
+
+This End User License Agreement ("Agreement") is a legal agreement
+between you ("User") and Reapermen ("Licensor") governing the use of
+the Vexyrl Audio™ DAW software, including the VxrCore Engine ("VxrCore"),
+associated binaries, content, and documentation ("Software").
+
+By installing, copying, or using this Software, you agree to be bound
+by the terms of this Agreement.
 
 ------------------------------------------------------------
-1. PROPRIETARY RIGHTS & RESTRICTIONS
+1. LICENSE GRANT
 ------------------------------------------------------------
-The Vexyrl Core Engine (VxrCore) is the proprietary property of 
-Reapermen. By installing or using this software, you agree:
 
-- NO REVERSE ENGINEERING: You shall not decompile, 
-  disassemble, reverse engineer, or otherwise attempt to 
-  derive the source code of the Vexyrl Core Engine or GUI.
-- NO MODIFICATION: You shall not modify, adapt, or create 
-  derivative works based on the binary files provided.
-- NO REDISTRIBUTION: You may not sell, lease, or distribute 
-  this software without express written permission.
+The Software is provided free of charge.
 
-------------------------------------------------------------
-2. CORE SOFTWARE & LICENSING
-------------------------------------------------------------
-Vexyrl Core Engine: Proprietary / Closed Source.
-GUI Framework: .NET / C# (Eto.Forms)
-Graphics & Audio I/O: Powered by SFML (zlib/libpng license).
+Licensor grants you a limited, non-exclusive, non-transferable,
+non-sublicensable license to install and use the Software for
+personal and commercial purposes at no cost.
+
+This Software is licensed, not sold.
+
+Reapermen retains full ownership of the Software and all
+associated intellectual property.
 
 ------------------------------------------------------------
-3. SOUND LIBRARIES & ATTRIBUTION
+2. OWNERSHIP
 ------------------------------------------------------------
-VXYD includes optimized sample sets derived from the following:
 
-1. GeneralUser GS (v2.0.2 & v1.471) 
-   Author: S. Christian Collins (http://www.schristiancollins.com)
-   License: Permission granted for use in software.
+The Software, including but not limited to the VxrCore Engine,
+audio engine, graphical interface, architecture, and binaries,
+is the exclusive property of Reapermen and is protected by
+copyright and intellectual property laws.
 
-2. Real Acoustic Drums 5 
-   Author: Tarty (via Musical Artifacts)
-   License: Creative Commons Attribution 3.0. 
-   Modifications: Original samples transcoded to OGG and 
-   optimized for VXYD's 12-15 sample architecture.
-
-3. FreePats General MIDI SoundFonts
-   Author: Various contributors (http://freepats.zenvoid.org)
-   License: Public domain / GPL-compatible for soundfont use.
-   Notes: Samples included in VXYD optimized for 12-15 sample playback.
+All rights not expressly granted are reserved by Reapermen.
 
 ------------------------------------------------------------
-4. WARRANTY & LIABILITY
+3. RESTRICTIONS
 ------------------------------------------------------------
-THIS SOFTWARE IS PROVIDED "AS IS". REAPERMEN DISCLAIMS ALL 
-WARRANTIES, INCLUDING BUT NOT LIMITED TO FITNESS FOR A 
-PARTICULAR PURPOSE. IN NO EVENT SHALL THE AUTHORS BE LIABLE 
-FOR ANY DAMAGES ARISING FROM THE USE OF THIS SOFTWARE.
+
+You may NOT:
+
+• Reverse engineer, decompile, disassemble, or attempt to derive
+  source code from the VxrCore Engine or Software binaries.
+
+• Modify, adapt, translate, or create derivative works of the
+  proprietary engine or core binaries.
+
+• Sell, sublicense, rent, lease, redistribute, or otherwise
+  distribute the Software binaries except as permitted under
+  Section 13 (Redistribution).
+
+• Use the Software or its binaries to develop, power, or integrate
+  with a custom graphical interface, host application, wrapper,
+  plugin host, or alternative frontend without explicit written
+  permission from Reapermen.
+
+• Use the Software to develop a competing product that directly
+  replicates its proprietary engine architecture.
+
+These restrictions do NOT apply to user-created content.
 
 ------------------------------------------------------------
-5. TRADEMARKS
+4. AUDIO SAMPLE LICENSE
 ------------------------------------------------------------
-Vexyrl Audio™ and VXYD™ are trademarks of Reapermen. 
+
+The Software includes proprietary and licensed audio samples, which may include third-party and royalty-free content.
+
+You ARE permitted to:
+
+• Use Samples in musical compositions, audio productions,
+  games, films, broadcasts, and live performances.
+
+• Modify, process, and transform Samples within your projects.
+
+• Use Samples in both commercial and non-commercial works.
+
+• Use Samples obtained from royalty-free sources (e.g., Pixabay, CC0, or other
+  explicitly licensed free libraries) without providing credit, 
+  provided they are not redistributed in raw or standalone form.
+
+You may NOT:
+
+• Redistribute Samples in raw, isolated, or extractable form.
+
+• Sell, sublicense, share, or distribute Samples as part of
+  any standalone sample library, sound pack, or competing product.
+
+• Use any Samples that contain trademarks, logos, or brands for
+  commercial purposes without permission from the respective owners.
+
+Ownership of musical compositions created using the Samples
+belongs entirely to you.
+
+------------------------------------------------------------
+5. THIRD-PARTY SOFTWARE
+------------------------------------------------------------
+
+This Software utilizes third-party libraries, which remain the
+property of their respective owners and are governed by their
+own licenses.
+
+These include but are not limited to:
+
+SFML (Simple and Fast Multimedia Library)
+License: zlib/libpng License
+https://www.sfml-dev.org/license/
+
+Eto.Forms
+License: MIT License
+https://github.com/picoe/Eto
+
+FFmpeg
+License: GNU Lesser General Public License (LGPL) v2.1
+https://github.com/FFmpeg/FFmpeg
+
+FFmpeg libraries are dynamically linked from system-provided
+installations or from separate shared library files distributed
+alongside the Software. These libraries remain separate works
+and may be replaced or updated by the user in accordance with
+the LGPL.
+
+Source code for FFmpeg is available from:
+https://github.com/FFmpeg/FFmpeg
+
+------------------------------------------------------------
+6. THIRD-PARTY SAMPLE CONTENT
+------------------------------------------------------------
+
+GeneralUser GS
+Author: S. Christian Collins
+Website: http://www.schristiancollins.com
+Used with permission. Redistribution of raw samples is prohibited.
+
+Lushreal Sample Library
+Author: Reapermen
+License: Proprietary Royalty-Free License
+Royalty-free for use in compositions and productions.
+Standalone redistribution is prohibited.
+
+------------------------------------------------------------
+7. DISCLAIMER OF WARRANTY
+------------------------------------------------------------
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND
+NON-INFRINGEMENT.
+
+THE ENTIRE RISK ARISING OUT OF USE OR PERFORMANCE OF THE SOFTWARE
+REMAINS WITH YOU.
+
+------------------------------------------------------------
+8. LIMITATION OF LIABILITY
+------------------------------------------------------------
+
+IN NO EVENT SHALL REAPERMEN BE LIABLE FOR ANY DAMAGES WHATSOEVER,
+INCLUDING BUT NOT LIMITED TO:
+
+• LOSS OF DATA
+• LOSS OF PROFITS
+• BUSINESS INTERRUPTION
+• SYSTEM FAILURE
+
+ARISING OUT OF THE USE OR INABILITY TO USE THE SOFTWARE.
+
+------------------------------------------------------------
+9. TERMINATION
+------------------------------------------------------------
+
+This license is effective until terminated.
+
+This Agreement will terminate automatically if you fail to comply
+with its terms.
+
+Upon termination, you must cease all use of the Software and
+destroy all copies in your possession.
+
+------------------------------------------------------------
+10. AMENDMENTS
+------------------------------------------------------------
+
+Licensor reserves the right, at its sole discretion, to modify 
+or replace this Agreement at any time. If a revision is 
+material, Licensor will provide notice via the Software's 
+official website or by updating the license file included 
+with the Software. Continued use of the Software after 
+changes constitutes acceptance of the new terms.
+
+------------------------------------------------------------
+11. TRADEMARKS
+------------------------------------------------------------
+
+Vexyrl Audio™ and VXYD™ are trademarks of Reapermen.
+
 All other trademarks are the property of their respective owners.
-============================================================
 
-THIS ALL APPLIES! However, you are able to ask my permission for anything that involves this by contacting my via email: reapermen89@gmail.com
+------------------------------------------------------------
+12. CONTACT INFORMATION
+------------------------------------------------------------
+
+Licensing inquiries and binary integration requests:
+reapermen89@gmail.com
+
+------------------------------------------------------------
+13. REDISTRIBUTION
+------------------------------------------------------------
+
+You may redistribute the original, unmodified Software package
+provided that:
+
+• All original files remain intact and unmodified
+• This license agreement is included
+• No fee is charged for the Software itself
+• The Software is not modified, repackaged, or integrated into
+  another application
+• The Software is not used to power custom graphical interfaces,
+  hosts, plugin hosts, or alternative frontends without explicit
+  written permission from Reapermen
+
+Redistribution of individual binaries separate from the official
+distribution package is prohibited without written permission.
+
+------------------------------------------------------------
+14. GOVERNING LAW
+------------------------------------------------------------
+
+This Agreement shall be governed by and construed in accordance 
+with the laws of the jurisdiction in which the Licensor resides, 
+without regard to conflict of law principles. Any legal action 
+or proceeding arising under this Agreement will be brought 
+exclusively in the courts of the Licensor’s jurisdiction.
+
+============================================================
+END OF LICENSE
+============================================================
