@@ -1,0 +1,889 @@
+tempo 220
+volume 90
+section IntroPiano1 [
+Basic<Piano>(
+{Bb4^Bb5, .del 0.0}
+{A4^A5, .del 0.5}
+{F4^F5, .del 1.0}
+{C4^C5, .del 1.5}
+{D4^D5, .del 2.0}
+{F4^F5, .del 2.5}
+{Bb4^Bb5, .del 3.0}
+{A4^A5, .del 3.5}
+{F4^F5, .del 4.0}
+{C4^C5, .del 4.5}
+{D4^D5, .del 5.0}
+{F4^F5, .del 5.5}
+)
+]
+
+section IntroPiano2 [
+Basic<Piano>(
+{Bb4^Bb5, .del 0.0}
+{Ab4^Ab5, .del 0.5}
+{F4^F5, .del 1.0}
+{C4^C5, .del 1.5}
+{Db4^Db5, .del 2.0}
+{F4^F5, .del 2.5}
+{Bb4^Bb5, .del 3.0}
+{Ab4^Ab5, .del 3.5}
+{F4^F5, .del 4.0}
+{C4^C5, .del 4.5}
+{Db4^Db5, .del 5.0}
+{F4^F5, .del 5.5}
+)
+]
+
+section IntroPiano3 [
+Basic<Piano>(
+{Bb4^Bb5, .del 0.0}
+{Ab4^Ab5, .del 0.5}
+{E4^E5, .del 1.0}
+{B4^B5, .del 1.5}
+{Db4^Db5, .del 2.0}
+{E4^E5, .del 2.5}
+{Bb4^Bb5, .del 3.0}
+{Ab4^Ab5, .del 3.5}
+{E4^E5, .del 4.0}
+{B4^B5, .del 4.5}
+{Db4^Db5, .del 5.0}
+{E4^E5, .del 5.5}
+)
+]
+
+section IntroPiano4 [
+Basic<Piano>(
+{A4^A5, .del 0.0}
+{Ab4^Ab5, .del 0.5}
+{E4^E5, .del 1.0}
+{B4^B5, .del 1.5}
+{Db4^Db5, .del 2.0}
+{E4^E5, .del 2.5}
+{A4^A5, .del 3.0}
+{Ab4^Ab5, .del 3.5}
+{E4^E5, .del 4.0}
+{B4^B5, .del 4.5}
+{Db4^Db5, .del 5.0}
+{E4^E5, .del 5.5}
+)
+]
+
+section IntroPianoCounter1 [
+Basic<Piano>(
+{F4, .del 0.0}
+{D4, .del 0.5}
+{F4, .del 1.0}
+{Bb4, .del 1.5}
+{D4, .del 2.0}
+{Bb4, .del 2.5}
+{F4, .del 3.0}
+{D4, .del 3.5}
+{F4, .del 4.0}
+{D4, .del 4.5}
+{F4, .del 5.0}
+{Bb4, .del 5.5}
+
+{D4, .del 6.0}
+{A4, .del 6.5}
+{F4, .del 7.0}
+{D4, .del 7.5}
+{F4, .del 8.0}
+{D4, .del 8.5}
+{F4, .del 9.0}
+{A4, .del 9.5}
+{D4, .del 10.0}
+{Bb4, .del 10.5}
+{F4, .del 11.0}
+{D4, .del 11.5}
+)
+]
+
+section IntroPianoCounter2 [
+Basic<Piano>(
+{F4, .del 0.0}
+{Db4, .del 0.5}
+{F4, .del 1.0}
+{Bb4, .del 1.5}
+{Db4, .del 2.0}
+{Bb4, .del 2.5}
+{F4, .del 3.0}
+{Db4, .del 3.5}
+{F4, .del 4.0}
+{Db4, .del 4.5}
+{F4, .del 5.0}
+{Bb4, .del 5.5}
+
+{Db4, .del 6.0}
+{Ab4, .del 6.5}
+{F4, .del 7.0}
+{Db4, .del 7.5}
+{F4, .del 8.0}
+{Db4, .del 8.5}
+{F4, .del 9.0}
+{Ab4, .del 9.5}
+{Db4, .del 10.0}
+{Bb4, .del 10.5}
+{F4, .del 11.0}
+{Db4, .del 11.5}
+)
+]
+
+section IntroPianoCounter3 [
+Basic<Piano>(
+{E4, .del 0.0}
+{Db4, .del 0.5}
+{E4, .del 1.0}
+{Ab4, .del 1.5}
+{Db4, .del 2.0}
+{Ab4, .del 2.5}
+{E4, .del 3.0}
+{Db4, .del 3.5}
+{E4, .del 4.0}
+{B4, .del 4.5}
+{E4, .del 5.0}
+{Ab4, .del 5.5}
+)
+]
+
+section IntroPianoCounter4 [
+Basic<Piano>(
+{E4, .del 0.0}
+{Db4, .del 0.5}
+{E4, .del 1.0}
+{A4, .del 1.5}
+{Db4, .del 2.0}
+{A4, .del 2.5}
+{E4, .del 3.0}
+{Db4, .del 3.5}
+{E4, .del 4.0}
+{B4, .del 4.5}
+{E4, .del 5.0}
+{A4, .del 5.5}
+)
+]
+
+section IntroBassCounter1 [
+Basic<SynthBass>(
+{F3, .del 0.0}
+{D3, .del 0.5}
+{F3, .del 1.0}
+{Bb3, .del 1.5}
+{D3, .del 2.0}
+{Bb3, .del 2.5}
+{F3, .del 3.0}
+{D3, .del 3.5}
+{F3, .del 4.0}
+{D3, .del 4.5}
+{F3, .del 5.0}
+{Bb3, .del 5.5}
+
+{D3, .del 6.0}
+{A3, .del 6.5}
+{F3, .del 7.0}
+{D3, .del 7.5}
+{F3, .del 8.0}
+{D3, .del 8.5}
+{F3, .del 9.0}
+{A3, .del 9.5}
+{D3, .del 10.0}
+{Bb3, .del 10.5}
+{F3, .del 11.0}
+{D3, .del 11.5}
+)
+]
+
+section IntroBassCounter2 [
+Basic<SynthBass>(
+{F3, .del 0.0}
+{Db3, .del 0.5}
+{F3, .del 1.0}
+{Bb3, .del 1.5}
+{Db3, .del 2.0}
+{Bb3, .del 2.5}
+{F3, .del 3.0}
+{Db3, .del 3.5}
+{F3, .del 4.0}
+{Db3, .del 4.5}
+{F3, .del 5.0}
+{Bb3, .del 5.5}
+
+{Db3, .del 6.0}
+{Ab3, .del 6.5}
+{F3, .del 7.0}
+{Db3, .del 7.5}
+{F3, .del 8.0}
+{Db3, .del 8.5}
+{F3, .del 9.0}
+{Ab3, .del 9.5}
+{Db3, .del 10.0}
+{Bb3, .del 10.5}
+{F3, .del 11.0}
+{Db3, .del 11.5}
+)
+]
+
+section IntroBassCounter3 [
+Basic<SynthBass>(
+{E3, .del 0.0}
+{Db3, .del 0.5}
+{E3, .del 1.0}
+{Ab3, .del 1.5}
+{Db3, .del 2.0}
+{Ab3, .del 2.5}
+{E3, .del 3.0}
+{Db3, .del 3.5}
+{E3, .del 4.0}
+{B3, .del 4.5}
+{E3, .del 5.0}
+{Ab3, .del 5.5}
+)
+]
+
+section IntroBassCounter4 [
+Basic<SynthBass>(
+{E3, .del 0.0}
+{Db3, .del 0.5}
+{E3, .del 1.0}
+{A3, .del 1.5}
+{Db3, .del 2.0}
+{A3, .del 2.5}
+{E3, .del 3.0}
+{Db3, .del 3.5}
+{E3, .del 4.0}
+{B3, .del 4.5}
+{E3, .del 5.0}
+{A3, .del 5.5}
+)
+]
+
+section IntroGuitar1 [
+Basic<OverdriveGuitar>(
+{F2^F3, .len 12}
+)
+]
+
+section IntroGuitar2 [
+Basic<OverdriveGuitar>(
+{Bb2^Bb3, .len 12}
+)
+]
+
+section IntroGuitar3 [
+Basic<OverdriveGuitar>(
+{Db3^Db4, .len 6}
+)
+]
+
+section IntroGuitar4 [
+Basic<OverdriveGuitar>(
+{E3^E4, .len 6}
+)
+]
+
+section IntroDrums [
+Basic<StandardDrums>(
+{Kick, LowTom, .len 1}
+{Crash, .len 6, .vel 70}
+{Crash2, .len 3, .del 3}
+)
+]
+
+section IntroDrums_1 [
+Basic<StandardDrums>(
+{Crash, .len 6}
+{Kick, .len 2.5}
+{Kick, .len 0.5, .del 2.5}
+{Snare, .len 0.5, .del 3.0, .vel 155}
+{Splash, .len 1.5, .del 3.0}
+{MidTom, .len 0.5, .del 3.5}
+{LowTom, .len 0.5, .del 4.0}
+{Snare, .len 0.5, .del 4.5, .vel 155}
+{Splash, .len 1.5, .del 4.5}
+{MidTom, .len 0.5, .del 5.0}
+{LowTom, .len 0.5, .del 5.5}
+)
+]
+
+section IntroDrums2_0 [
+Basic<StandardDrums>(
+{Crash, .len 6.0}
+{Kick, .len 1.0}
+{Kick, .len 0.5, .del 1.0}
+{Snare, .len 0.5, .del 1.5, .vel 155}
+{Kick, .len 0.5, .del 2.0}
+{Kick, .len 1, .del 2.5}
+{Kick, .len 0.5, .del 3.5}
+{Kick, .len 0.5, .del 4.0}
+
+{Snare, .len 0.5, .del 4.5, .vel 155}
+{Kick, .len 0.5, .del 5.0}
+{Kick, .len 0.5, .del 5.5}
+{Kick, .len 0.5, .del 6.0}
+{Kick, .len 0.5, .del 6.5}
+{Kick, .len 0.5, .del 7.0}
+{Snare, .len 0.5, .del 7.5, .vel 155}
+{Kick, .len 0.5, .del 8.0}
+{LowTom, .len 0.5, .del 8.5}
+
+{Snare, .len 0.5, .del 9.0, .vel 155}
+{Kick, .len 0.5, .del 9.5}
+{LowTom, .len 0.5, .del 10}
+
+{Snare, .len 0.5, .del 10.5, .vel 155}
+{Kick, .len 0.5, .del 11.0}
+{LowTom, .len 0.5, .del 11.5}
+)
+]
+
+section IntroDrums2_1 [
+Basic<StandardDrums>(
+{Crash, .len 6.0}
+{Kick, .len 1.0}
+{Kick, .len 0.5, .del 1.0}
+{Snare, .len 0.5, .del 1.5, .vel 155}
+{Kick, .len 0.5, .del 2.0}
+{Kick, .len 1, .del 2.5}
+{Kick, .len 0.5, .del 3.5}
+{Kick, .len 0.5, .del 4.0}
+
+{Snare, .len 0.5, .del 4.5, .vel 155}
+{Kick, .len 0.5, .del 5.0}
+{Kick, .len 0.5, .del 5.5}
+)
+]
+
+section IntroDrums2_2 [
+Basic<StandardDrums>(
+{Crash, .len 6.0}
+{Kick, .len 0.5}
+{Kick, .len 0.5, .del 0.5}
+{Kick, .len 0.5, .del 1.0}
+{Snare, .len 0.5, .del 1.5, .vel 155}
+{Kick, .len 0.5, .del 2.0}
+{Kick, .len 0.5, .del 2.5}
+
+# best part!
+
+{Snare^Kick, .len 0.25, .del 3.0, .vel 155}
+{MidTom, .len 0.25, .del 3.25}
+{Kick, .len 0.25, .del 3.5}
+{LowTom, .len 0.25, .del 3.75}
+{Snare^Kick, .len 0.25, .del 4.0, .vel 155}
+{MidTom, .len 0.25, .del 4.25}
+{Kick, .len 0.25, .del 4.5}
+{LowTom, .len 0.25, .del 4.75}
+{Snare^Kick, .len 0.25, .del 5.0, .vel 155}
+{MidTom, .len 0.25, .del 5.25}
+{Kick, .len 0.25, .del 5.5}
+{LowTom, .len 0.25, .del 5.75}
+)
+]
+
+section IntroStrings [
+Basic<Viola>(
+{F5^F6, .len 12}
+)
+]
+
+section IntroStrings2 [
+Basic<Viola>(
+{Ab5^Ab6, .len 6}
+)
+]
+
+section IntroStrings3 [
+Basic<Viola>(
+{A5^A6, .len 6}
+)
+]
+
+section IntroLast [
+Basic<Piano>(
+{A4^A5, .del 0.0, .vel 55}
+{Ab4^Ab5, .del 0.5, .vel 55}
+{E4^E5, .del 1.0, .vel 55}
+{B4^B5, .del 1.5, .vel 55}
+{Db4^Db5, .del 2.0, .vel 55}
+{E4^E5, .del 2.5, .vel 55}
+{A4^A5, .del 3.0, .len 3, .vel 55}
+)
+]
+
+override Basic<Piano>{.rev 50, .vel 65, .rel 0.5, .att 0.05, .len 0.5}
+override Basic<SynthBass>{.rev 0, .vel 70, .att 0.05, .rel 0.05}
+override Basic<StandardDrums>{.vel 100, .att 0.05, .rev 100}
+override Basic<OverdriveGuitar>{.rev 0, .vel 80, .att 0.05}
+override Basic<Viola>{.rev 0, .vel 70, .rel 0.5, .att 0.5}
+
+play IntroPiano1*2 - IntroPianoCounter1 - IntroBassCounter1 - IntroDrums*2 - IntroGuitar1 - IntroStrings
+play IntroPiano2*2 - IntroPianoCounter2 - IntroBassCounter2 - IntroDrums*2 - IntroGuitar2 - IntroStrings
+play IntroPiano3 - IntroPianoCounter3 - IntroBassCounter3 - IntroDrums - IntroGuitar3 - IntroStrings2
+play IntroPiano4 - IntroPianoCounter4 - IntroBassCounter4 - IntroDrums_1 - IntroGuitar4 - IntroStrings3
+
+override Basic<StandardDrums>{.rev 20, .vel 140, .att 0.05}
+override Basic<Piano>{.rev 50, .vel 45, .rel 0.5, .att 0.05, .len 0.5, .pit 1200}
+override Basic<SynthBass>{.rev 0, .vel 55, .att 0.05, .rel 0.125, .pit 1200}
+override Basic<OverdriveGuitar>{.rev 50, .vel 85, .att 0.05}
+
+play IntroPiano1*2 - IntroPianoCounter1 - IntroBassCounter1 - IntroDrums2_0 - IntroGuitar1
+play IntroPiano2*2 - IntroPianoCounter2 - IntroBassCounter2 - IntroDrums2_0 - IntroGuitar2
+play IntroPiano3 - IntroPianoCounter3 - IntroBassCounter3 - IntroDrums2_1 - IntroGuitar3
+override Basic<Piano>{.rev 100, .vel 25, .rel 0.5, .att 0.05, .len 0.5, .pit 1200}
+
+play IntroPiano4 - IntroPianoCounter4 - IntroBassCounter4 - IntroDrums2_2 - IntroGuitar4 - IntroLast
+
+section BassPianoAb [
+Basic<Piano>(
+{Ab2, .del 0.0}
+{Ab3, .del 0.5}
+{Ab2, .del 1.0}
+{Ab3, .del 1.5}
+{Ab2, .del 2.0}
+{Ab3, .del 2.5}
+{Ab2, .del 3.0}
+{Ab3, .del 3.5}
+{Ab2, .del 4.0}
+{Ab3, .del 4.5}
+{Ab2, .del 5.0}
+{Ab3, .del 5.5}
+)-Basic<SynthBass>(
+{Ab2, .del 0.0}
+{Ab3, .del 0.5}
+{Ab2, .del 1.0}
+{Ab3, .del 1.5}
+{Ab2, .del 2.0}
+{Ab3, .del 2.5}
+{Ab2, .del 3.0}
+{Ab3, .del 3.5}
+{Ab2, .del 4.0}
+{Ab3, .del 4.5}
+{Ab2, .del 5.0}
+{Ab3, .del 5.5}
+)
+]
+
+section BassPianoAb2 [
+Basic<Piano>(
+{Ab2, .del 0.0}
+{Ab3, .del 0.5}
+{Ab2, .del 1.0}
+{Ab3, .del 1.5}
+{Ab2, .del 2.0}
+{Ab3, .del 2.5}
+{Ab2, .del 3.0}
+{Ab3, .del 3.5}
+{Ab2, .del 4.0}
+{Ab3, .del 4.5}
+{Ab2, .del 5.0}
+{Ab3, .del 5.5}
+
+{E2, .del 6.0}
+{E3, .del 6.5}
+{E2, .del 7.0}
+{E3, .del 7.5}
+{E2, .del 8.0}
+{E3, .del 8.5}
+{E2, .del 9.0}
+{E3, .del 9.5}
+{E2, .del 10.0}
+{E3, .del 10.5}
+{E2, .del 11.0}
+{E3, .del 11.5}
+)-Basic<SynthBass>(
+{Ab2, .del 0.0}
+{Ab3, .del 0.5}
+{Ab2, .del 1.0}
+{Ab3, .del 1.5}
+{Ab2, .del 2.0}
+{Ab3, .del 2.5}
+{Ab2, .del 3.0}
+{Ab3, .del 3.5}
+{Ab2, .del 4.0}
+{Ab3, .del 4.5}
+{Ab2, .del 5.0}
+{Ab3, .del 5.5}
+
+{E2, .del 6.0}
+{E3, .del 6.5}
+{E2, .del 7.0}
+{E3, .del 7.5}
+{E2, .del 8.0}
+{E3, .del 8.5}
+{E2, .del 9.0}
+{E3, .del 9.5}
+{E2, .del 10.0}
+{E3, .del 10.5}
+{E2, .del 11.0}
+{E3, .del 11.5}
+)
+]
+
+section BassPianoAb3 [
+Basic<Piano>(
+{G2, .del 0.0}
+{G3, .del 0.5}
+{G2, .del 1.0}
+{G3, .del 1.5}
+{G2, .del 2.0}
+{G3, .del 2.5}
+{G2, .del 3.0}
+{G3, .del 3.5}
+{G2, .del 4.0}
+{G3, .del 4.5}
+{G2, .del 5.0}
+{G3, .del 5.5}
+
+{E2, .del 6.0}
+{E3, .del 6.5}
+{E2, .del 7.0}
+{E3, .del 7.5}
+{E2, .del 8.0}
+{E3, .del 8.5}
+{E2, .del 9.0}
+{E3, .del 9.5}
+{E2, .del 10.0}
+{E3, .del 10.5}
+{E2, .del 11.0}
+{E3, .del 11.5}
+)-Basic<SynthBass>(
+{G2, .del 0.0}
+{G3, .del 0.5}
+{G2, .del 1.0}
+{G3, .del 1.5}
+{G2, .del 2.0}
+{G3, .del 2.5}
+{G2, .del 3.0}
+{G3, .del 3.5}
+{G2, .del 4.0}
+{G3, .del 4.5}
+{G2, .del 5.0}
+{G3, .del 5.5}
+
+{E2, .del 6.0}
+{E3, .del 6.5}
+{E2, .del 7.0}
+{E3, .del 7.5}
+{E2, .del 8.0}
+{E3, .del 8.5}
+{E2, .del 9.0}
+{E3, .del 9.5}
+{E2, .del 10.0}
+{E3, .del 10.5}
+{E2, .del 11.0}
+{E3, .del 11.5}
+)
+]
+
+section Chord1Strings [
+Basic<Strings>(
+{E4^Ab4^B4^Db5^E5}
+)
+]
+
+section Chord2Strings [
+Basic<Strings>(
+{F#4^B4^Db5^Gb5}
+)
+]
+
+section Chord3Strings [
+Basic<Strings>(
+{F#4^Bb4^Db5^F5}
+)
+]
+
+section Chord4Strings [
+Basic<Strings>(
+{Eb4^Ab4^C5^Eb5}
+)
+]
+
+section Chord5Strings [
+Basic<Strings>(
+{F4^Bb4^Db5^F5}
+)
+]
+
+section Chord6Strings [
+Basic<Strings>(
+{Ab4^C5^Eb5^F5^Ab5}
+)
+]
+
+section Chord7Strings [
+Basic<Strings>(
+{Bb4^D5^F5^Bb5}
+)
+]
+
+section DrumFill [
+Basic<StandardDrums>(
+{Snare, .del 0.0, .vel 155}
+{Kick, .del 0.5}
+{Kick, .del 0.75}
+{Kick, .del 1.0}
+{Snare, .del 1.5, .vel 155}
+{Kick, .del 2.0}
+{Kick, .del 2.5}
+{Snare, .del 3.0, .vel 155}
+{Kick, .del 3.5}
+{Kick, .del 4.0}
+{Snare, .del 4.5, .vel 155}
+{Kick, .del 5.0}
+{Kick, .del 5.5}
+
+{Snare, .del 6.0, .vel 155}
+{Kick, .del 6.5}
+{Kick, .del 6.75}
+{Kick, .del 7.0}
+{Snare, .del 7.5, .vel 155}
+{Kick, .del 8.0}
+{Kick, .del 8.5}
+{Snare, .del 9.0, .vel 155}
+{Kick, .del 9.5}
+{Kick, .del 10.0}
+{Snare, .del 10.5, .vel 155}
+{Kick, .del 11.0}
+{Kick, .del 11.5}
+)
+]
+
+section DrumFill2 [
+Basic<StandardDrums>(
+{Snare, LowTom, Kick, Splash, .del 0.0, .len 1.5, .vel 120, .rel 1}
+{Kick, LowTom, .del 1.0, .len 0.5}
+
+{Snare, LowTom, Kick, Splash, .del 1.5, .len 1.5, .vel 120, .rel 1}
+{Kick, LowTom, .del 2.5, .len 0.5}
+
+{Snare, LowTom, Kick, Splash, .del 3.0, .len 1.5, .vel 120, .rel 1}
+
+{Snare, LowTom, Kick, .del 4.0, .len 1, .vel 120}
+
+{Snare, MidTom, Kick, Splash, .del 4.5, .len 1.5, .rel 1}
+{Snare, LowTom, Kick, .del 5.0, .len 0.5}
+{Snare, LowTom, Kick, .del 5.5, .len 0.5}
+
+{Kick, Snare, HiTom, .del 6.0}
+
+{Kick, Snare, HiTom, .del 6.25}
+
+{Kick, HiMidTom, .del 6.5}
+
+{Kick, HiMidTom, .del 6.75}
+
+{Kick, Snare, .del 7.0}
+
+{Kick, Snare, .del 7.25}
+
+{Kick, Snare, LowTom, Snare, .del 7.5}
+
+{Kick, Snare, LowTom, Snare, .del 7.75}
+
+{Kick, HiTom, .del 8.0}
+
+{Kick, HiTom, .del 8.25}
+
+{Kick, Snare, .del 8.5}
+
+{Kick, Snare, .del 8.75}
+
+{Kick, HiMidTom, .del 9.0}
+{Kick, LowTom, HiMidTom, .del 9.5}
+{Kick, MidTom, .del 10.0}
+
+{Kick, MidTom, .del 10.5}
+{Kick, LowTom, .del 11.0}
+{Kick, LowTom, .del 11.5}
+)
+]
+
+section CrashFill [
+Basic<StandardDrums>(
+{Crash, .len 6, .rev 50, .rel 0.75}
+{Crash, .del 9, .rev 50, .rel 0.75}
+{Crash, .del 10, .rev 50, .rel 0.75}
+{Crash, .del 11, .rev 50, .rel 0.75}
+)
+]
+
+section CrashFill2 [
+Basic<StandardDrums>(
+{Crash, .len 6, .rev 50, .rel 0.75 .vel 150}
+{Crash, .del 6, .rev 50, .rel 0.75 .vel 150}
+{Crash, .del 7, .rev 50, .rel 0.75 .vel 150}
+{Crash, .del 8, .rev 50, .rel 0.75 .vel 150}
+{Crash, .del 9, .rev 50, .rel 0.75 .vel 150}
+{Crash, .del 10, .rev 50, .rel 0.75 .vel 150}
+{Crash, .del 11, .rev 50, .rel 0.75 .vel 150}
+)
+]
+
+section SingularCrash [
+Basic<StandardDrums>(
+{Crash, .len 6, .rev 200}
+)
+]
+
+section Melody0 [
+Basic<HonkyTonk>(
+{Ab4 ^ Ab5, .del 3, .len 1.5}
+{B4 ^ B5, .del 4.5, .len 1.5}
+{B4 ^ B5, .del 6.0, .len 1.5}
+
+{Bb4 ^ Bb5, .del 9.0, .len 0.5}
+{Ab4 ^ Ab5, .del 9.5, .len 0.5}
+{Gb4 ^ Gb5, .del 10, .len 0.5}
+
+{E4 ^ E5, .del 10.5, .len 0.5}
+{Eb4 ^ Eb5, .del 11, .len 0.5}
+{Db4 ^ Db5, .del 11.5, .len 0.5}
+)
+]
+
+section Melody1 [
+Basic<HonkyTonk>(
+{Eb4 ^ Eb5, .del 0, .len 1}
+{Eb6 ^ Eb7, .del 3.5, .len 4, .vel 130}
+{Db6 ^ Db7, .del 4.5, .len 4, .vel 130}
+)
+]
+
+section Melody2 [
+Basic<HonkyTonk>(
+{Bb4 ^ Bb5, .len 1.5, .del 0.0, .rev 100, .vel 100}
+{Bb4 ^ Bb5, .len 1.5, .del 3.0, .rev 100, .vel 100}
+{Ab4 ^ Ab5, .len 1.5, .del 4.5, .rev 100, .vel 100}
+{Bb4 ^ Bb5, .len 1.5, .del 6,  .rev 100, .vel 100}
+)
+]
+
+section Melody3 [
+Basic<Trumpet>(
+{C5 ^ C6, .len 1.5, .del 0.0}
+{Db5 ^ Db6, .len 1.5, .del 1.5}
+{Eb5 ^ Eb6, .len 1.5, .del 3.0}
+{C5 ^ C6, .len 1.5, .del 4.5}
+{Bb4 ^ Bb5, .len 4.5, .del 6.0}
+
+{C5 ^ C6, .len 1.5, .del 10.5}
+)
+]
+
+section Melody4 [
+Basic<Trumpet>(
+{Db5 ^ Db6, .len 4.5, .del 0}
+
+{Bb4 ^ Bb5, .len 0.75, .del 4.5}
+{F5 ^ F6, .len 0.75, .del 5.25}
+{Eb5 ^ Eb6, .len 4.5, .del 6}
+
+{C5 ^ C6, .len 0.75, .del 10.5}
+{Db5 ^ Db6, .len 0.75, .del 11.25}
+)
+]
+
+section Melody5 [
+Basic<Trumpet>(
+{Bb4 ^ Bb5, .len 4.5, .del 0}
+
+{Ab4 ^ Ab5, .len 0.5, .del 4.5}
+{Bb4 ^ Bb5, .len 0.5, .del 5}
+{C5 ^ C6, .len 0.5, .del 5.5}
+
+{Eb5 ^ Eb6, .len 1.5, .del 6}
+{C5 ^ C6, .len 1.5, .del 7.5}
+{Eb5 ^ Eb6, .len 1.5, .del 9}
+{Gb5 ^ Gb6, .len 1.5, .del 10.5}
+)
+]
+
+section Melody6 [
+Basic<Trumpet>(
+{Ab5 ^ Ab6, .len 3, .del 0}
+{Bb5 ^ Bb6, .len 1.5, .del 3.0}
+{C6 ^ C7, .len 1.5, .del 4.5}
+{Ab5 ^ Ab6, .len 3, .del 6.0}
+{F5 ^ F6, .len 1.5, .del 9.0}
+{Ab5 ^ Ab6, .len 1.5, .del 10.5}
+)
+]
+
+section Melody7 [
+Basic<Trumpet>(
+{Bb5 ^ Bb6, .len 1.5, .del 0, .rel 6}
+
+{F5 ^ F6, .len 1.0, .del 6}
+{Eb5 ^ Eb6, .len 0.5, .del 7}
+{Db5 ^ Db6, .len 1.0, .del 7.5}
+{C5 ^ C6, .len 0.5, .del 8.5}
+{Bb4 ^ Bb5, .len 1.0, .del 9}
+{Ab4 ^ Ab5, .len 0.5, .del 10}
+{Gb4 ^ Gb5, .len 1.0, .del 10.5}
+{F4 ^ F5, .len 0.5, .del 11.5}
+)
+]
+
+section Melody8 [
+Basic<Trumpet>(
+{Bb4 ^ Bb5, .len 12, .del 0, .vel 90}
+{F5 ^ F6, .len 6, .del 6, .vel 90}
+)
+]
+
+# Ab
+override Basic<Piano>{.pit 0, .vel 80, .rel 0.5, .rev 80}
+override Basic<Strings>{.rev 50, .vel 60, .att 0, .len 12, .pit 0, .rel 1}
+override Basic<StandardDrums>{.vel 110}
+override Basic<HonkyTonk>{.vel 120, .rel 1, .rev 40}
+override Basic<Trumpet>{.vel 200, .rev 30, .revtype:void}
+
+override Basic<SynthBass>{.pit 0, .vel 50, .rel 0.5}
+
+play BassPianoAb*2 - Chord1Strings - Melody0 - DrumFill - SingularCrash
+# B
+override Basic<Piano>{.pit 300, .vel 80, .rel 0.5, .rev 100}
+override Basic<SynthBass>{.pit 300, .vel 50, .rel 0.5}
+
+play DrumFill - Chord2Strings - Melody1 - BassPianoAb*2
+# Bb
+override Basic<Piano>{.pit 200, .vel 80, .rel 0.5, .rev 100}
+override Basic<SynthBass>{.pit 200, .vel 50, .rel 0.5}
+
+play BassPianoAb*2 - DrumFill - Chord3Strings - Melody2 - CrashFill
+
+# C, Ab
+override Basic<Piano>{.pit 400, .vel 80, .rel 0.5, .rev 100}
+override Basic<SynthBass>{.pit 400, .vel 50, .rel 0.5}
+
+play BassPianoAb2 - DrumFill - Chord4Strings - Melody3 - SingularCrash
+# Db, Bb
+override Basic<Piano>{.pit 600, .vel 80, .rel 0.5, .rev 100}
+override Basic<SynthBass>{.pit 600, .vel 50, .rel 0.5}
+
+play BassPianoAb3 - DrumFill - Chord5Strings - Melody4 - SingularCrash
+
+# Eb
+override Basic<Piano>{.pit 700, .vel 80, .rel 0.5, .rev 100}
+override Basic<SynthBass>{.pit 700, .vel 50, .rel 0.5}
+
+play BassPianoAb*2 - DrumFill - Chord6Strings - Melody5 - CrashFill
+
+# Db, Bb
+override Basic<Piano>{.pit 600, .vel 80, .rel 0.5, .rev 100}
+override Basic<SynthBass>{.pit 600, .vel 50, .rel 0.5}
+
+play BassPianoAb3 - Chord5Strings - DrumFill - Melody6 - SingularCrash
+
+# C, Ab
+override Basic<Piano>{.pit 400, .vel 80, .rel 0.5, .rev 100}
+override Basic<SynthBass>{.pit 400, .vel 50, .rel 0.5}
+
+play BassPianoAb2 - DrumFill - Chord6Strings - Melody7
+
+# Bb
+override Basic<Piano>{.pit 200, .vel 80, .rel 0.5, .rev 100}
+override Basic<SynthBass>{.pit 200, .vel 50, .rel 0.5}
+override Basic<StandardDrums>{.vel 110}
+
+play BassPianoAb*2 - DrumFill2 - Chord7Strings - Melody8 - CrashFill2

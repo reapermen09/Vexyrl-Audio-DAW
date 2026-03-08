@@ -1,0 +1,276 @@
+section Main [
+    Basic<HonkyTonk>(
+	{A4, .del 0}
+	{D4, .del 0.5}
+	{G4, .del 1}
+	{F4, .del 1.5}
+    )
+]
+
+section MainExtended [
+    Basic<SquareLead>(
+	{A4, .del 0}
+	{D4, .del 0.5}
+	{G4, .del 1}
+	{F4, .del 1.5}
+	{A4, .del 2}
+	{D4, .del 2.5}
+	{G4, .del 3}
+	{F#4, .del 3.5}
+
+    )
+]
+
+section Main2 [
+    Basic<HonkyTonk>(
+	{A4, .del 0}
+	{D4, .del 0.5}
+	{G4, .del 1}
+	{F#4, .del 1.5}
+    )
+]
+
+section Bass [
+    Basic<Sine>(
+	{D2^D3}
+    )
+]
+
+section Bass2 [
+    Basic<Sine>(
+	{F2^F3}
+    )
+]
+
+section Bass3 [
+    Basic<Sine>(
+       {E3^E4}
+    )
+]
+
+section StringAttacks [
+    Basic<Violin>(
+	{A5, .len 9}
+	{Ab5, .len 3, .del 6}
+    )
+]
+
+section MainStrings [
+    Basic<Violin>(
+	{A4, .len 2, .vel 90}
+	{D5, .len 2, .del 2, .vel 90}
+	{A4, .len 2, .del 4, .vel 90}
+	{E5, .len 10, .del 6, .vel 90}
+    )-Basic<Viola>(
+	{G5^A5^D6, .len 4, .del 8}
+    )
+]
+
+section MainStringsVar2 [
+    Basic<Violin>(
+	{A4, .len 2}
+	{D5, .len 2, .del 2}
+
+	{D5^D6, .len 2, .del 6}
+	{Eb5^Eb6, .len 4, .del 12}
+    )-Basic<Viola>(
+	{Ab5^Db6, .len 4, .del 12}
+    )
+]
+
+section MainDrums [
+    Basic<StandardDrums>(
+	{Crash, .len 2, .rev 40, .rel 2}
+	{Kick}
+	{Kick, .del 0.5}
+	{Snare, .del 1}
+	{Kick, .del 1.5}
+
+	{Kick, .del 2.5}
+	{Snare, .del 3}
+	{Kick, .del 3.5}
+	
+	{Crash, .len 2, .rev 40, .rel 2, .del 4}
+	{Kick, .del 4}
+	{Kick, .del 4.5}
+	{Snare, .del 5}
+	{Kick, .del 5.5}
+
+	{Kick, .del 6.5}
+	{Snare, .del 7}
+	{Kick, .del 7.5}
+
+	{Crash, .len 2, .rev 40, .rel 2, .del 8}
+	{Kick, .del 8}
+	{Kick, .del 8.5}
+	{Snare, .del 9}
+	{Kick, .del 9.5}
+
+	{Kick, .del 10.5}
+	{Snare, .del 11}
+	{Kick, .del 11.5}
+	
+	{Crash, .len 2, .rev 40, .rel 2, .del 12}
+	{Kick, .del 12}
+	{Kick, .del 12.5}
+	{Snare, .del 13}
+	{Kick, .del 13.5}
+
+	{Kick, .del 14.5}
+	{Snare, .del 15}
+	{Kick, .del 15.5}
+	
+	{Crash, .len 2, .rev 40, .rel 2, .del 8}
+	{Ride, .len 1, .rev 50, .rel 2, .del 8, .vel 60}
+	{Ride, .len 1, .rev 50, .rel 2, .del 9, .vel 60}
+	{Ride, .len 1, .rev 50, .rel 2, .del 10, .vel 60}
+	{Ride, .len 1, .rev 50, .rel 2, .del 11, .vel 60}
+	{Ride, .len 1, .rev 50, .rel 2, .del 12, .vel 60}
+	{Ride, .len 1, .rev 50, .rel 2, .del 13, .vel 60}
+	{Ride, .len 1, .rev 50, .rel 2, .del 14, .vel 60}
+	{Ride, .len 1, .rev 50, .rel 2, .del 15, .vel 60}
+    )
+]
+
+section MainBass [
+    Basic<Sine>(
+	{A2^A3, .len 2, .del 0, .vel 80}
+	{D2^D3, .len 2, .del 2, .vel 80}
+	{A2^A3, .len 2, .del 4, .vel 80}
+	{D2^D3, .len 2, .del 6, .vel 80}
+	{C2^C3, .len 1.75, .del 8, .vel 80}
+	{A2^A3, .len 0.25, .del 9.75, .vel 80}
+	{G2^G3, .len 2, .del 10, .vel 80}
+	{D3^D4, .len 4, .del 12, .vel 80}
+    )
+]
+
+section Hits [
+    Basic<OrchestralHit>(
+	{A4, .len 1, .del 0, .rev 80, .rel 1, .vel 60}
+	{A4, .len 0.5, .del 1, .rev 80, .rel 1, .vel 60}
+	{D5, .len 2.5, .del 1.5, .rev 80, .rel 1, .vel 60}
+
+	{A4^A5, .len 1, .del 4, .rev 80, .rel 1, .vel 60}
+	{A4^A5, .len 0.5, .del 5, .rev 80, .rel 1, .vel 60}
+	{E5^E6, .len 2.5, .del 5.5, .rev 80, .rel 1, .vel 60}
+    )
+]
+
+section PizzLayer [
+    Basic<Pizz>(
+        {F5^F6, .del 8, .vel 80, .rev 70}
+        {E5^E6, .del 8.5, .vel 90, .rev 75}
+        {G5^G6, .del 9, .vel 100, .rev 80}
+        {A5^A6, .del 10, .vel 100, .rev 84}
+        {C6^C7, .del 11, .vel 95, .rev 87}
+        {D6^D7, .del 11.5,, .vel 90, .rev 90}
+        {B5^B6, .del 12.5, .vel 90, .rev 92}
+        {A5^A6, .del 13, .vel 95, .rev 94}
+        {B5^B6, .del 14, .vel 105, .rev 95}
+    )
+]
+
+
+section CounterMelody [
+    Basic<Piano>(
+        {A5^A6, .del 14.5, .rev 80, .vel 120, .rel 2}
+	 {C6^C7, .del 15, .rev 80, .vel 70, .rel 2}
+        {C6^C7, .del 15.25, .rev 80, .vel 90, .rel 2, .len 0.25}
+        {C6^C7, .del 15.5, .rev 80, .vel 110, .rel 2, .len 0.25}
+    )
+]
+
+section MainVarBass [
+    Basic<Sine>(
+	{C3^C4, .len 4, .del 0, .vel 80}
+	{Bb2^Bb3, .len 4, .del 4, .vel 80}
+	{A2^A3, .len 4, .del 8, .vel 80}
+	{Ab2^Ab3, .len 4, .del 12, .vel 80}
+    )
+]
+
+section MainVar [
+    Basic<HonkyTonk>(
+	{D6^D7, .del 0, .len 1}
+	{C6^C7, .del 1}
+	{F5^F6, .del 1.5}
+	{D6^D7, .del 2, .len 1}
+	{C6^C7, .del 3}
+	{F5^F6, .del 3.5}
+
+	{D6^D7, .del 4, .len 1}
+	{Bb5^Bb6, .del 5}
+	{F5^F6, .del 5.5}
+	{D6^D7, .del 6, .len 1}
+	{Bb5^Bb6, .del 7}
+	{F5^F6, .del 7.5}
+
+	{D6^D7, .del 8, .len 1}
+	{A5^A6, .del 9}
+	{F5^F6, .del 9.5}
+	{D6^D7, .del 10, .len 1}
+	{A5^A6, .del 11}
+	{F5^F6, .del 11.5}
+
+	{Db6^Db7, .del 12, .len 1}
+	{Ab5^Ab6, .del 13}
+	{F5^F6, .del 13.5}
+	{Db6^Db7, .del 14, .len 1}
+	{Ab5^Ab6, .del 14.5}
+	{F5^F6, .del 15.5}
+    )
+]
+
+tempo 68
+volume 70
+pitch 0
+
+# set Honky Tonks defaults
+
+OVERRIDE Basic<HonkyTonk>{.rel 2, .rev 120, .vel 50, .vlow -20, .low 5, .mid 10, .high -30, .vhigh -50, .revtype:infinite}
+
+play Main
+
+play Main
+
+play Main
+
+play Main2
+
+Basic<Sine>{.len 2}
+
+play Main - Bass
+
+play Main2 - Bass2
+
+play Main - Bass
+
+play Main2 - Bass3
+
+Basic<StandardDrums>({Splash, .len 1, .rel 8, .rev 100, .pan -0.25, .vlow -5, .low 5, .mid 5, .high -5, .vhigh -50})
+
+volume 65
+
+OVERRIDE Basic<Violin>{.vel 65, .rel 2, .att 1, .rev 200, .revtype:shimmer, .low 3, .mid 3, .high -8, .vhigh -50}
+
+play StringAttacks
+
+rest 6
+
+Basic<StandardDrums>({Splash, .len 1, .rel 8, .rev 100, .pan 0.25, .vlow -5, .low 5, .mid 5, .high -5, .vhigh -50})
+
+volume 85
+
+OVERRIDE Basic<SquareLead>{.vel 40}
+
+# redefining so all previous defaults reset!
+OVERRIDE Basic<Violin>{.vel 60}
+
+OVERRIDE Basic<Viola>{.vel 70, .rel 2, .rev 80}
+
+play MainExtended*4 - MainStrings - MainDrums - MainBass - Hits - CounterMelody - PizzLayer
+
+OVERRIDE Basic<HonkyTonk>{.rev 100, .vel 80, .rel 2}
+
+play MainVar - MainVarBass - MainStringsVar2 - MainDrums
