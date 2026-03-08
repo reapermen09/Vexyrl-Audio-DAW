@@ -15,6 +15,10 @@ Documentation is all in ReleaseScript.vxrs or if you go to Help -> View Document
 
 Or you can just look through all the projects I've tested with this DAW.
 
+<img width="1202" height="828" alt="image" src="https://github.com/user-attachments/assets/236330fa-b280-45fd-9e49-98c3114111e2" />
+
+<img width="556" height="277" alt="image" src="https://github.com/user-attachments/assets/ce52680d-4c02-4849-8b2b-55f3f5741af6" />
+
 # Description
 
 This project is a person project I've been working on since 2/6/2026. It is a scripting based DAW where you can sequence music and play your music.
