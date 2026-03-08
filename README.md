@@ -3,6 +3,9 @@ A scripting based DAW w/ instrument samples
 
 THIS PRODUCT WILL NOW ONLY BE FOR LINUX SYSTEMS (STARTING MARCH 8, 2026)
 
+<img width="1339" height="825" alt="image" src="https://github.com/user-attachments/assets/ef3f09ba-8804-4d6d-8eb4-268b727f488e" />
+
+
 # Description
 
 This project is a person project I've been working on since 2/6/2026. It is a scripting based DAW where you can sequence music and play your music.
@@ -30,13 +33,3 @@ In Content/SampleLibraryName/Trumpet/
 is what it's looking for.
 
 You are able to check out how sample libraries are made in the Content folder.
-
-# Windows Example:
-
-<img width="640" height="640" alt="image" src="https://github.com/user-attachments/assets/6fe366a0-4eb5-42c8-9825-4418805e15ab" />
-
-# Linux Example:
-
-<img width="997" height="771" alt="image" src="https://github.com/user-attachments/assets/860fcc74-81d3-4316-9ce4-c6bf55fe4f5e" />
-
-<img width="1000" height="768" alt="image" src="https://github.com/user-attachments/assets/4d6e80a4-098e-45a2-a8ab-37be609b23ac" />
