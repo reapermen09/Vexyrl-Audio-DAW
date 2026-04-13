@@ -3,4 +3,4 @@ VSCO2 CE Samples
 Samples used from Versilian Studio Chamber Orchestra 2 Community Edition (VSCO2 CE),
 by Versilian Studios.
 
-https://vis.versilstudios.com/vsco-2.html
+https://versilian-studios.com/vsco-2/
